@@ -1,0 +1,22 @@
+name: rc_overall_drive_ratio
+description: RC Overall Drive Ratio calculator and gear change assistant.
+publish_to: 'none'
+version: 0.4.0+5
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/text/Murfdogg_Chassis_Tuning_101.txt

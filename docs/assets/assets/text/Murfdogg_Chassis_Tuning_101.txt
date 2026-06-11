@@ -1,0 +1,1075 @@
+TITLE: Chassis Tuning 101
+SUBTITLE: Matt Murphy’s Dirt Oval Chassis Tuning Guide
+
+# PREFACE
+
+Over the last 17 years of my life, I have raced Dirt Oval all over the United States, on foam tires and
+rubber, hard packed and loose dirt. I have learned a lot about chassis setup on many different track
+surfaces with many different types of cars. Much of what I have learned is from trial and error, and
+quite a bit I have learned from doing plain old research on race car chassis dynamics. My goal now is
+to take what I have learned, and share it with you, but I want to do so in the simplest, easiest to
+understand manner that I possibly can. I certainly do not know everything, and I am not always right,
+however I can say that it is rare that I work on a particular chassis setup, and do not find improvement
+with each adjustment. My theories are just that, and are intended only to help you better enjoy your
+RC race cars, no matter which make and model you choose. Some things I pay much more attention to
+than others when it comes to chassis setup, but please understand there is no right or wrong, there is
+simply what works best for YOU!
+
+# Chapter 1: Introduction to Dirt Oval Chassis Setup:
+
+Chassis Setup is the most important factor in having a fast Dirt Oval car. However, there is no magic
+setup that will work on every car and every track condition for every driver. One driver may a like a car
+that steers very aggressively, while another may like to drive a smooth, slower reacting car. The most
+important thing for each driver to find is BALANCE! Balance means that the front end and rear end of
+the car have equal traction, and gives the driver a comfortable feel when driving the car at speed.
+Typically, if your car turns into the corner well, and then the rear end slides out, you are experiencing a
+“loose” race car, and you will need to add traction to the rear end to improve the balance of your
+chassis. Likewise, if your car seems to lack steering entering the corner, and you have to slow down too
+much to get around the corner, you are experiencing a “tight” race car. Finding and maintaining balance
+is the key to a consistently fast car on any racing surface, and your goal should be to find a balanced
+setup, more so than a fast setup. A fast setup may yield that one lightning fast lap, but a balanced setup
+will be easier to driver for 4 minutes, often yielding in a faster overall run.
+
+## Knowing What to Adjust
+
+Most racing chassis come with a “standard” or “Kit” setup. Most companies spend countless hours in
+development and testing to come up with their baseline setup, which is why I always suggest that you
+start with the standard/kit setup. The standard setup is typically the setup that they felt yielded a very
+comfortable handling chassis on many types of track surfaces. Think of this as your home. If you get
+“lost” with your tuning and find that you have lost the balance of your car, go back “home” to the
+baseline setup and start over!
+
+The purpose of this tuning is to help you enjoy racing dirt oval, and help you understand the many
+chassis adjustments available to you to change your car to suit both track conditions and your driving
+capabilities. Please note that there are many ways to setup a car. I like to say that “there a thousand
+ways to bake a cake, you simply need to find the recipe that you like.” Not all chassis adjustments will
+have the same exact effect in every situation; however, following the info provided in this guide should
+help you achieve a general understanding of chassis setup. Most of these chassis adjustments will apply
+to any track surface, however, in some extreme track conditions; an adjustment may not have the
+desired effect on handling. My goal is to help you to better understand which chassis adjustments you
+should make, what the adjustment should do, and why the adjustment does what it does. Once you
+understand this, then, hopefully, you will better understand when to make which adjustment, to achieve
+the best chassis setup possible for the given conditions.
+
+## Suspension Theory 101:
+
+Your suspension has one main purpose; to control the amount of Weight Transfer to each corner of the
+chassis, which in turn changes the amount of traction that tire can achieve. Every component of the
+suspension plays a part in controlling weight transfer. Every adjustment you make to the chassis changes
+the amount of weight transfer created, and where it transfers to, changing the overall balance of the
+car. Chassis setup is the art of controlling weight transfer.
+
+Generally speaking, a “tight car” is an easy to drive car, and a “loose car” is much harder to control. My
+personal motto in chassis setup is to “Hook up the rear, then make her steer.” Easy to drive is better for
+all racers. Even the most talented racers go faster with an easier to drive chassis.
+To best understand what the chassis is doing, we need to go over the basic handling characteristics:
+- On-power Steering: On-Power Steering refers to how the car steers when throttle is applied.
+- Off-Power Steering: Off-Power Steering refers to how the car steers at neutral throttle or no throttle
+applied.
+- Push: When a car is cornering but the front tires are sliding more than the rear. A car with a “push”
+does not have enough steering. Although a car that “pushes” is easier to drive, a car that pushes is
+slower in the turns than a car that is slightly “Loose”. (Also known as “Tight” or “Understeer”)
+- Loose: When the rear of the car slides more than the front. A car that is loose has too much steering. A
+“Loose” car tends to rotate more easily; however, a car that is too loose is harder to control and may
+spin out easily. (Also known as “Free” or “Oversteer”)
+
+Next, we need to break the track up into 4 segments to best analyze what part of the track we need to
+work on.
+- Corner Entry: This is the first part of the turn where you begin turning in. This is where the front of the
+car dips towards the track and the rear of the car lifts up a little, causing weight to transfer to the front
+tires, giving more steering. (Off-Power Steering)
+- Mid Corner: This is where you maintain balance of the car with your throttle and steering input. This is
+where the chassis leans over as far as it is going to lean. (Neutral Throttle)
+- Corner Exit: This is the part of the turn where you begin to apply throttle. As you apply throttle, the
+front end rises up and the rear end squats down, transferring more weight to the rear tires causing the
+car to have more rear traction. (On-Power Steering)
+- Straights: The straight part of the track after corner exit, typically where you are full throttle, and likely
+backing out of the throttle prior to corner entry.
+If you can tell what your chassis is doing in each segment of the track, you can then determine what
+adjustments will best suit your needs. Understanding what your chassis is doing, and where it is doing it
+is half of the battle. This is often the hardest thing for new racers to “get a feel for”.
+
+# Chapter 2: Tires
+
+Tires are the single most important part of your chassis setup. Tires are the ONLY part of your chassis
+setup in contact with the racing surface, and are the sole provider of directional forces such as
+acceleration and steering. Generally speaking, the softer the tire is, the more grip that the tire can give.
+However, if the tire is too soft, it may deflect or deform more under load and cause a reduction in
+traction. The goal in selecting race tires is to run the softest tire you can run to achieve maximum
+traction, while maintaining consistent performance throughout the duration of the race, without
+excessive deflection, tire heat, and tire degradation. The softest, most hooked up tire combination is no
+good if it does not last the duration of the race.
+
+The best way to find out what tires you should be running is to go ask what the fast guys at your track
+are running. Use this as a starting point for tire selection, but do not be afraid to try other combinations.
+Each track typically has a known “go to tire” that works well. Asking the veterans and local fast guys is
+always a good way to know what to start with.
+
+## Foam Tires
+
+There are two different “families” of foam tires; Synthetic Rubber and Natural Rubber.
+Synthetic Rubber: These tires are best suited for tracks with moisture in them, and are usually the tires
+of choice for wet clay tracks. These tires typically are softer than natural rubber tires, and create the grip
+racers look for on wet tracks.
+
+CHEAT SHEET:
+Synthetic Foam Tires
+- RC4LESS: Silver (25), Gold (30), Bronze (35)
+- BSR: Silver (25), Orange (25), Red (30)
+
+## Natural Rubber
+
+These tires have higher rubber content, and excel on dry track surfaces. These tires are
+harder than their synthetic counterparts, but offer longer wear, and better performance characteristics
+on abrasive surfaces. Natural Rubber tires gain traction as the tire heats up and the rubber gets “sticky”.
+Running too soft of a tire can cause overheating, excessive tire wear, and less overall grip. Running a tire
+that is too hard can result in a tire that does not build heat, and creates less than desired grip levels.
+
+CHEAT SHEET:
+Natural Rubber Tires
+RC4LESS: Pink (30), Pink (35), Magenta (40), Purple (45)
+BSR: Pink (30), Double Pink (35), Purple (40), Double Purple (45)
+CW: V2 (30), V3 (37), V4 (45), V5 (55+)
+
+## Tire Grooving
+
+Grooved tires generally provide more forward and side bite than do tires without grooves, but do have
+higher wear characteristics and do require break in for maximum grip. Grooved tires that have not been
+broken in will lack forward and side bite, until they get scuffed in. Generally speaking, on wet tracks, you
+want a tire with radial grooves and cross cuts in rear, and radial grooves in front. On dry tracks, we often
+run only radial grooves on all 4 tires. Radial grooves promote side bite by creating edges on the contact
+surface that increase side bite. Cross cuts are used to increase forward traction, however if the track has
+enough bite to run a harder compound tire, you typically are not looking for increased forward traction.
+There is a point at which the grooved tire becomes too worn or feathered, and it should be replaced to
+prevent a major loss in tire performance.
+
+## Tire Diameter
+
+Tire Diameter is a huge factor in the amount of bite a tire produces. A good all-around tire diameter to
+start with is 2.65”. The larger the tire diameter, the more sidewall the tire has. More sidewall creates
+more side bite, and makes the tire feel like it has more grip than a smaller diameter tire of the same
+compound. Taller tires can sometimes create too much bite, causing traction rolls, or tire chunking from
+excess sidewall deflection. Typically, when bite goes up, you want to go to a smaller tire. Suggested tire
+diameters range from 2.45” for slower spec classes on high bite tracks up to 2.80” for faster classes, on
+lower traction surfaces. What is best for your application? Seek out the local fast guy and ask him!
+
+## Compound Selection
+
+Foam tires do not have air in them; therefore you cannot adjust performance of the tire with air
+pressure. Instead, we use softer compound tires on different corners to achieve different amounts of
+traction. A common setup is to run 3 soft tires and a right front tire that is one step harder. This often
+results in a more balanced feel, and smoother steering response. Sometimes, on abrasive tracks, racers
+may opt for soft left sides, and one step harder right sides to balance out tire wear.
+
+## Stagger
+
+Stagger is when your right side tire is larger in diameter than your left side tire. Some racers play with
+rear stagger, but in general we do not. Our chassis race at scale speeds of 400mph around scale 3/8 mile
+tracks, lapping in 4 seconds. Our cars also feature independent rear suspensions, and differentials that
+are not locked. The differential will usually absorb any difference in tire diameter by controlling diff
+action on throttle. If the rear axle was solid and locked, stagger could be a helpful tool, but that is simply
+not the case with our cars.
+
+Front stagger can be used to tune steering response and entry steering. Stagger will reduce
+responsiveness at initial turn in, and reduce steering on corner entry. Reverse stagger is when the right
+front tire is smaller than the left front. Reverse stagger will make your car more reactive at initial turn in,
+and give you more steering at corner entry. Front stagger is a good way to fine tune steering, but is
+recommended only as a fine tuning adjustment once your chassis is close.
+
+## Rubber Tires
+
+Rubber Tires are typically used on “Looser” dirt surfaces, although loose dirt has pretty much
+disappeared from race tracks across the country. There are two distinct types of rubber tires: Street
+Tracs and Buggy Tires.
+
+## Street Tracs
+
+Street Tracs are a Spec style rubber tire that are not particularly high in bite, but when used as a spec
+tire, can be a very good control tire. Street Tracs are available in two compounds, standard and high
+bite. If you are racing on dirt and the rules allow, you will want to use the High Bite (HB) compound. If
+you are running on a hard surface, the Standard compound will keep you from wearing out tires too
+quickly. I suggest the CW molded inserts for use in the Street Trac tires. The lower the bite, the softer
+your insert should be. The higher the bite, the harder you want. Yellow is soft, Orange is medium, and
+Red is firm. A good all-around combination is HB tires with Yellow inserts.
+
+## Buggy Tires
+
+There are two types of Buggy Tire racing: Open Tire and Spec Tire.
+
+## SPEC Tire
+
+If you run SPEC Tires, you need to talk to the local fast guys at each track and figure out what the
+handling tendencies are of the SPEC Tires. AKA “Rebar’s” are a common SPEC Tire. This tire is known to
+have very little side bite, and a good amount or forward bite. This tire is designed and used in off-road
+for super packed conditions, and is not the ideal tire for looser surfaces, but as a SPEC Tire, it is the same
+for everyone. The three tricks with SPEC Tires right now are insert selection, tread depth, and tire
+doping. Some tracks are so hooked up that foam tires would work very well, however certain parts of
+the country are afraid of foam tires. This brings “ghosting” into play. Ghosting is the practice of
+purposely wearing out your tires to make them have very little tread left, usually tiptoeing the fine line
+between worn out treaded tire and slicks. I have one issue with SPEC Buggy Tire racing today, there is 2
+different compounds allowed, and no limit on tire inserts, which allows racers to have 10 different
+combinations of the same rear tire, which in the long run, saves nobody money. Throw in each tread
+depth, and tire costs can be very high.
+
+## Inserts
+
+Open cell foam inserts are softer than their molded counterparts, and usually provide a more hooked up
+feel all the way around the track creating more side bite and more forward bite. Molded inserts are
+usually more firm, and reduce sidewall deflection and carcass stretch under acceleration. This promotes
+less side bite and forward bite, but in higher traction situations may give a more balanced feel by
+allowing the car to better rotate into the corner, and rotate more on throttle during corner exit.
+
+## Open Tires
+
+Open Tire racing may seem like it would cost more than SPEC Tire racing, but there are a few tires that
+are known to be ideal in most situations. There is not much to say about Open Tires, instead I will list
+what Open Tires you should consider. Tire Insert selection is similar for Open and SPEC Tires. For best
+performance, seek out the fast guys, and see what they are using!
+
+CHEAT SHEET:
+### Front Tires
+- Pro-Line - Narrow 4 Rib - M3 Compound (Good on looser tracks)
+- Pro-Line - Scrubs M3 - Compound (Good on Harder Tracks)
+### Rear Tires
+- Pro-Line - Inside Job - M3 Compound
+- Hot Bodies - Gigabite - Pink Compound
+
+## Tire Dope
+
+I hate tire dope. It is made up of toxic chemical solvents, known in the chemical industry to cause
+cancer, serious birth defects, and mutations. Somehow, the RC industry is allowed to sell such chemicals
+without supplying proper safety precautions and use instructions, and without MSDS or ingredient
+listings. Please avoid skin contact and inhalation of these products. Please do not use them indoors or
+without proper ventilation. If RC Racers would push for a doping ban, we could eliminate the need to
+have several $12 bottles of toxic chemicals in our pit boxes, increase tire life and lower tire bills, and
+race in a much healthier environment.
+
+If you want Tire Doping advice, seek out the local fast guy at your track, and do what he is doing.
+
+In conclusion, for the fastest race car possible; TIRES, TIRES, and TIRES!!!!!! If your tires are not ideal for
+the track conditions, you WILL NOT be as fast as you could be on the right tire. A poor chassis setup
+racing on the right tires will often beat a well setup car on the wrong tires. For best results, do your
+homework, come prepared, and look to the veterans for guidance.
+
+# Chapter 3 - Springs, Shocks, and Chassis Height
+
+## Springs
+
+Springs are the quickest, easiest, and most effective way to change weight transfer on your chassis.
+Springs have only one job; to control ride height. Softer springs allow more weight to transfer, while
+stiffer springs allow less weight transfer. The more weight transfer you have to a particular corner of the
+chassis, the more traction you can gain on that corner’s tire. In general, running softer springs will
+produce more traction until you get so soft that the chassis rolls over to the point where there is no
+suspension left and it starts to slide the tires. Also, running springs that are too soft can result in
+overloading of the tire, which can also result in a break of traction. A softer front spring will usually
+produce more steering while a firmer spring will tend to decrease steering response. A softer rear spring
+will usually produce more rear traction, but on higher bite tracks, you will need to increase your spring
+rate to keep the car sitting on the rear end, causing a push. Most chassis can achieve maximum balance
+with stiffer springs up front than in the rear. Rare situations may call for softer front springs than rear
+springs, usually when cars have extreme aerodynamic conditions such as EDM style bodies with high
+amounts of downforce and plenty of side panel for stability.
+
+## Shock Mount Positions
+
+Shock Mount Positions on the suspension arms and the shock tower can change the effective rate of the
+shock/spring package. Moving the location of the shock mount changes the amount of leverage the
+shock has on the suspension as it compresses. The more a shock is laid down, the softer that shock
+becomes, due to decreased leverage against compression of the suspension. The more a shock is stood
+up, the stiffer that shock becomes, due to increased leverage against compression of the suspension.
+Laydown front ends typically have a more aggressive feel for the driver, due to decreased leverage of
+the shock, and increased weight transfer to the right front. Stand Up front ends typically have a more
+“positive” feel for the driver. This means the car feels more into the track, and more consistent,
+although possibly more of a “tight” feel. Stand Up and Laydown front ends need very different spring
+setups due to the varying amounts of leverage.
+
+## Shock Dampening
+
+There are three key factors in shock dampening: Pistons, Oil, and Bladders. Shock Pistons move through
+the Shock Oil inside the shock body during compression and rebound, and the amount of resistance
+caused by this movement is known as dampening.
+
+## Shock Pistons
+
+Most shocks have multiple shock pistons available for fine tuning of dampening. Shock pistons are
+mounted on the shock shaft and have holes in them that control the flow of the shock fluid as it moves
+up and down with the suspension movement. There are various options available for each brand of
+shock, usually varying in number of holes and the diameter of the holes in the piston. Using pistons with
+smaller and/or less holes provides stiffer damping, slower weight transfer, and slower response. Pistons
+with larger and/or more holes provides softer damping, increased traction, quicker weight transfer and
+response.
+
+## Shock Oil
+
+Shock Oil is graded by its viscosity or thickness. On most dirt oval chassis, racers use between 30wt and
+60wt Shock Fluid. Lighter shock fluid will give more overall traction and allows quicker response to
+suspension movement but also has a tendency to allow too much chassis roll in the corners. Heavier
+fluids have less overall traction and react slower but on high bite and smooth tracks, heavier fluid tends
+to be easier to drive. Heat makes shock fluids lighter and cold makes them heavier. You may need to
+adjust shock fluid when there is a drastic temperature change (20-25 degrees) to maintain the same
+dampening. If it gets cold you will need to go to a lighter weight shock fluid. If it gets hotter you will
+need to go to heavier weight shock fluid. In extreme temperatures, you can change 5wt and get very
+close to the feel of your dampening settings from typical temperatures.
+
+## Bladders
+
+Not all shocks are designed to use a bladder; however I recommend bladder shocks for all racers looking
+for consistent handling. The shock bladder acts as a silicone membrane that keeps the shock oil and the
+air in the shock separated from one another. This prevents air bubbles for getting into the shock fluid,
+causing inconsistent dampening as the pistons moves past the fluid and into air pockets. Be sure to
+check your bladders for punctures any time you open your shocks up. I suggest that racers replace their
+bladders every time they replace their shock seals (which should be a somewhat regular maintenance
+procedure).
+
+## Chassis Height
+
+Chassis Height is a very important measurement and setting that many racers neglect or simply do not
+understand. Chassis height is set by the amount of pressure applied to the springs by the spring collar on
+the shock. Adding Pre-Load to your shock collars DOES NOT do anything to the shock besides change
+chassis height. You cannot stiffen an 8 pound spring with more pre-load; instead preload simply jacks up
+the chassis height on that corner of the car. The proper way to stiffen up the chassis and maintain
+balance is to go to a stiffer spring, and reset your chassis height. Typically, we treat chassis height as a
+setting, not an adjustment. We use a particular chassis height setting that we have found to work well
+on a particular track surface, and no matter what spring changes we need to do to control weight
+transfer, we readjust our chassis to that chassis height before each run.
+
+A 1mm change in chassis height can be a very significant in handling and weight transfer. The higher the
+chassis height is set, the higher your center of gravity will be. Higher center of gravity creates more
+chassis roll and weight transfer when cornering. This will also cause the car to transfer more weight
+when accelerating or decelerating. The higher you set your chassis height, the more weight transfer you
+are promoting. Likewise, the lower you set the chassis height, the lower you move the center of gravity.
+Lower center of gravity promotes maximum corner rotation and cornering speed, along with keeping
+the chassis flatter and resisting traction roll. If your chassis height is set too low, and your chassis is
+bottoming out, you will experience inconsistent handling. Just like any other chassis adjustment, when
+it comes to adjusting Chassis Height, you need to find balance.
+
+## Adjusting Balance and Setting Your Chassis with Chassis Height
+
+A typical Foam Tire Chassis Height is 12mm all around measured to bottom of chassis plate. A typical
+Buggy Tire Chassis Height is 17.5mm up front and 19.5mm in the rear of the chassis. Chassis Height is
+measured on the flat portion of the chassis just behind the front wheels, and just ahead of the rear
+wheels. We typically measure Sprint Cars race ready, with body and cage and measure Late Models and
+EDM’s race ready minus body.
+
+## Tuning Balance with Chassis Height and Springs
+
+Now let’s assume that we have a chassis that is setup with the right tires, and setup with the “standard
+setup” and set to 12mm chassis height. Now we go out and practice, and the car is a little too aggressive
+getting into the corner, so we end up putting two turns into the right front spring to counter the less
+than desirable handling situation. Now the car is feeling more drivable. What adjustment do we make
+next? First thing you should do, is remember what changes you made, and since we put turns into the
+RF, we should replace the RF spring with the next rate stiffer spring, and then reset your chassis height
+to 12mm. Now we go back out for more practice and find that the track is losing some grip on corner
+exit, so we end up cranking a turn into the LR and taking a turn out of the RR. This helps us get the feel
+we are looking for. So what do we need to change after the run? We need to go up one rate on the LR
+spring and down one rate on the RR spring, and then reset our chassis height to 12mm all around. By
+changing springs, we are controlling the amount of weight transfer to find the balance we need.
+Likewise, by maintaining the 12mm chassis height, we maintain a consistent Center of Gravity, keeping a
+consistent and comfortable feel, and we always have a reference point, just in case we go too far or get
+lost. For best results, take plenty of notes, and work on writing down detailed descriptions of how the
+car felt in each of the 4 segments of the track (Straights, Corner Entry, Mid Corner, and Corner Exit).
+
+CHEAT SHEET:
+Basic Spring Adjustment Cheat Sheet
+- Loose In: Stiffer RF Spring
+- Tight In: Softer RF Spring
+- Loose Off: Stiffer LR Spring, Softer RR Spring
+- Tight Off: Softer LR Spring, Stiffer RR Spring
+(Stiffer RF Spring will tend to tighten up the car all around the track)
+
+# Chapter 4 - Toe, Camber, Caster, and Wheel Spacing
+
+## Toe
+
+Toe is a word that describes the angle of a particular wheel, relative to the centerline of the chassis. Toe
+in refers to when the front edge of the wheel is closer to the centerline than the rear edge of the wheel.
+Toe out refers to when the rear edge of the wheel is closer to the centerline than the front edge of the
+wheel.
+
+## Front Toe
+
+Front toe is adjustable by lengthening or shortening the steering turnbuckles. Front toe should ALWAYS
+be set after your camber and chassis heights have been set. Front toe is typically measured using a
+ruler, calipers, or other measuring device. In general, I like to consider front toe as a setting, rather than
+an adjustment. Although you can adjust your front toe to be toed in, neutral, or toed out, I like to keep
+things simple by always running a very slight amount of front toe out. For 1/10th scale cars, I run 1/16” of
+toe out (.063”). For 1/8th scale cars, I run 1/8” of toe out (.125”). Again this is something I use as a
+setting, and I literally never adjust the amount of front toe; however you must check your toe after each
+camber, chassis height, caster, or camber link adjustment. All of these adjustments play a role in what
+length steering turnbuckles you must have for proper front toe.
+If you decide to tune with front toe, here is a basic guide to what each adjustment does:
+### Front Toe In - Less turn in steering, more exit steering, more aggressive down the straights, sometimes
+twitchy or darty feeling.
+### Front Toe Out - More turn in steering, less exit steering, more balanced down the straights, usually the
+most comfortable feel.
+
+## Rear Toe
+
+Rear toe is adjustable by changing the rear toe blocks and/or the holes through which they mount to the
+chassis. Rear Toe is measured in degrees. In general, the more toe in you run, the less overall steering
+you will have. The lesser the amount of toe in you run, the more overall steering you will have. In dirt
+oval cars, rear toe technology has evolved greatly over the past 4-5 years. Now it is somewhat common
+to run up to 6 degrees of left rear toe in, and sometimes racers even run right rear toe out! One very
+tricky aspect to tuning your dirt oval chassis and its rear toe in setting is that each corner affects the car
+differently.
+
+## Left Rear Toe
+
+Left Rear Toe is ALWAYS run toed in on today’s dirt oval chassis. Typical amounts of RR Toe in are
+between 0 and 6 degrees. In general, we use the LR toe angle to adjust how the car ENTERS the corner.
+The more degrees that the LR is toed in, the more rotation the chassis will have on corner entry, both on
+and off power. The fewer degrees that the LR is toed in, the less rotation the chassis will have on corner
+entry. Foam tire setups often run between 1-3 degrees of LR Toe in, while Buggy tire setups often use 4-6 degrees of LR toe in.
+
+## Right Rear Toe
+
+Right rear toe is usually set at fewer degrees than the LR, and sometimes in extreme conditions, is even
+run toed out. Typical amounts of RR toe are between 3 degrees of toe in and 3 degrees of toe out. In
+general, we use the RR toe angle to adjust how the car EXITS the corner. The more degrees that the RR
+tire is toed in, the more forward drive, and less on throttle rotation the car will have. The fewer degrees
+that the RR is toed in, the less forward drive, and more on throttle rotation the car will have. Foam tire
+setups often run between -1 to +3 degrees of RR Toe, while Buggy tire setups often use 0-4 degrees of
+RR toe in.
+
+CHEAT SHEET:
+Rear Toe Cheat Sheet:
+Tight on Entry - Increase LR Toe In
+Loose on Entry - Decrease LR Toe In
+Tight on Exit - Decrease RR Toe In
+Loose on Exit - Increase RR Toe In
+
+## Camber
+
+Camber is the angle of the wheel and tire in relation to the ground or flat surface. This is measured using
+a Camber Gauge. If the tire leans in towards the centerline of the chassis at the top it has negative
+camber. If the tire leans out at the top it has positive camber. The camber link controls the position of
+the wheel and tire as it moves up and down through its suspension travel. Camber is adjusted by
+lengthening or shortening the camber link turnbuckle until the desired camber angle is achieved.
+Camber has a tremendous effect on how the tires react and provide grip on the surface you are running
+on.
+
+## Foam Tires
+
+With foam tires, the tire has a consistent density throughout the tire, and running higher camber angles
+will usually increase tire wear and create a wear situation known as “coning”. This situation also results
+in a reduced amount of traction for that particular tire. With foam tires, the goal is to set your camber so
+that all 4 tires wear evenly. My foam tire cars usually have the tops of both front tires leaning towards
+the right, and the tops of both rear tires leaning to the left. I read my tire wear after each run, and adjust
+my camber link length accordingly, in an effort to have all 4 tires wearing flat.
+
+## Rubber Tires
+
+With rubber tires, the tires have foam inserts which act like air pressure, and often gain more grip when
+the camber settings force the tire to transfer the cornering forces to the inside edge of the tires. More
+negative camber on the right front wheel produces more steering and is more responsive. Less negative
+camber on the right front will have less steering but will be smoother. To a point, more front positive
+camber on the left front wheel will give better steering into and out of a turn. Less positive camber will
+similarly smooth out the steering but be less responsive. Typically, with rubber tires, all four wheels will
+have the top of the tire leaning to the left.
+
+CHEAT SHEET:
+Camber Cheat Sheet:
+### Foam Tires
+LF - Negative 1*
+RF - Positive 1*
+LR - Positive 1*
+RR - Negative 1*
+### Rubber Tires
+LF - Positive 1.5*
+RF - Negative 1.5*
+LR - Positive 2*
+RR - Negative 2*
+
+## Caster
+
+Caster is the angle of your kingpin relative to an imaginary line perpendicular to the chassis plate. If you
+were to look at your chassis, and draw an imaginary line through the middle of your kingpin, and then
+measure the angle between the kingpin and a line perpendicular to the chassis plate, the measured
+angle would be your caster angle. Total caster is figured by adding your kick-up angle and your caster
+block angle, to come up with total caster. We will get into kick-up in a later chapter, but for now, we will
+focus on total caster and its effects on chassis handling.
+
+## What Does Caster Do?
+
+Caster affects the handling of your chassis in two ways: Straight Line stability and Camber increase as
+steering input is given.
+
+## Straight Line Stability
+
+The higher degree of Caster you run, the more the car will want to stay straight while driving straight.
+The lesser degree of Caster you run, the more the car may want to wander while driving straight.
+Typically, more caster is better for straight line stability in low bite conditions and less caster can keep a
+car from feeling numb in high bite situations.
+
+## Camber Increase via Steering Input
+
+As you turn the wheels, the angle of Caster affects the angle of camber. The greater the amount of
+caster you run, the more camber you will gain with steering input. The lesser the amount of caster you
+run, the less camber gain you will achieve with steering input. Generally speaking, as you increase
+caster, you will gain steering as a result of increased camber. This is not an absolute scenario however;
+because if you have too much camber gain, you can actually reduce the amount of traction that a
+particular wheel can make causing the tire to be overloaded and slip. In some conditions, Caster may
+need to be reduced, to reduce camber gain via steering input, in order to increase contact patch on a
+particular corner which can result in improved grip for that particular tire. Like any adjustment, too
+much caster can be a bad thing. The goal when tuning with caster is to find the ideal handling
+characteristics both in a straight line and while cornering.
+
+## Caster Split
+
+Caster Split is the difference between LF and RF caster angles. Typically, I suggest no more than 5
+degrees of Caster Split. Five degrees of caster split is achieved by running 5 degrees less caster on the LF
+than the RF. Caster split helps the car turn into the corner easier, and in most instances, increases mid
+corner steering. Caster Split usually allows a racer to run less steering throw or dual rate, which in turn
+reduces corner speed scrub. In some extreme situations, racers have been running very aggressive rear
+toe settings, and in order to make these setups easier to drive, have been running negative Caster Split.
+Negative Split is when the RF has less caster than the LF. I suggest that racers keep caster adjustments
+simple, and run either 0 or 5 degrees of caster split for a balanced, easy to drive race car.
+
+## Wheel Spacing
+
+Wheel Spacing is an easy way to change the way your chassis drives, without changing the balance of
+your chassis. Front Wheel Spacing has a greater effect off power during corner entry, while rear wheel
+spacing has a greater effect on power during corner exit.
+
+## Front Spacing
+
+In general, as you space your front wheels to the right, you tighten up corner entry. Spacing your front
+wheels to the left will free up your corner entry.
+
+### Tighter entry = easier to drive but less potential for corner speed
+### Freer entry = harder to drive but more potential for corner speed
+
+## Rear Spacing
+
+In general, as you space your rear wheels to the right, you free up corner exit. Spacing your rear wheels
+to the left will tighten up your corner exit.
+
+### Tighter exit = More forward drive and less on throttle rotation
+### Freer exit = More on throttle rotation and less forward drive
+
+# Chapter 5 - Droop
+
+## Droop
+
+Droop is a word that by definition means to hang downward. How this applies to RC Suspension tuning
+is along the same lines. Droop is a measurement that determines how far your suspension arms “hang
+down” at full suspension travel. Droop is measured by measuring the center to center length of the
+shock. Center to center length means the center of the upper shock mount eyelet to the center of the
+lower eyelet or rod end. More droop is achieved with a longer length, and less droop is achieved with a
+shorter length. Droop is a tuning tool used by ALL of the top RC Racers, in every form of racing,
+especially dirt oval racing. I use droop adjustment at nearly every race I attend, and sometimes I adjust it
+after each run to fine tune the handling of my chassis. Droop is an advanced chassis adjustment, and is
+not recommended for all racers until a firm grasp of chassis basics is obtained.
+
+## Droop - How does it work?
+
+As one end of the car is raised, it transfers weight to the opposite end of the car. The higher you lift that
+end of the chassis, the more weight is transferred to the opposite end. The more droop you have on one
+end of the chassis increases the amount of weight you can transfer to the opposite end of the chassis
+during acceleration, cornering, or braking. More droop allows you to transfer more weight, while less
+droop limits the amount of weight you can transfer.
+
+## What Does Droop Do?
+
+Droop controls the amount of weight transfer that the chassis can achieve by changing the amount of
+travel at one end of the vehicle. Droop DOES NOT change the overall balance of your chassis setup, it
+simply controls the amount of weight transfer. Droop adjustments are considered a fine tuning
+adjustment, because droop should be adjusted to change characteristics entering and exiting the corner.
+If your chassis is not already “close” on setup, and the balance is not right, Droop will not save your car
+from ill handling characteristics.
+
+## Front Droop
+
+Front Droop affects the amount of weight transfer to the rear end of the car during acceleration. Front
+Droop has one main job: to control weight transfer front to rear and help add or take away forward
+drive. Front Droop affects ON-POWER handling.
+
+If you decide to tune with front droop, here is a basic guide to what each adjustment does:
+### More Front Droop
+- Increased weight transfer from the front to the rear wheels, resulting in more
+forward drive, and a tighter car on throttle. The car will want to drive straighter up off of the corner, and
+will have more rear grip while having less on throttle steering. Ideal in lower bite/loose conditions where
+forward drive is hard to come by.
+
+### Less Front Droop
+- Reduced weight transfer from the front to the rear wheels, resulting in less forward
+drive, and a looser car on throttle. The car will want to rotate more up off the corner and will have less
+rear grip while increasing on throttle steering. Ideal in Higher bite/hooked up conditions where you have
+plenty of forward drive.
+
+## Rear Droop
+
+Rear Droop affects the amount of weight transfer to the front end of the car during deceleration and
+braking. Rear Droop has one main job: to control weight transfer rear to front and help add or take away
+off power steering on corner entry. Front Droop affects OFF-POWER handling.
+
+If you decide to tune with rear droop, here is a basic guide to what each adjustment does:
+
+### More Rear Droop
+
+- Increased weight transfer from the rear to the front wheels, resulting in more entry
+steering, and a looser car off power. The car will want to turn more aggressively into the corner, and will
+have more front grip and more overall steering. Ideal in lower bite/loose conditions where steering is
+hard to gain.
+
+### Less Rear Droop
+- Reduced weight transfer from the rear to the front wheels, resulting in less entry
+steering, and a tighter car off power. The car will want to turn less aggressively into the corner and will
+have less front grip and less overall steering. Ideal in Higher bite/hooked up conditions where you have
+plenty of steering.
+
+## Measuring Droop
+
+Droop is measured using a pair of calipers. Simply measure the center to center length of the shock to
+determine your current droop setting. On the car, this can be measured from the center of the upper
+shock mount screw to the center of the lower shock mount screw.
+
+### Adjusting Droop
+
+Droop can be adjusted or set using the following four methods:
+- Shock Tower
+- Droop Screw
+- Limiters
+- Rod Ends
+
+## Shock Tower
+
+Many chassis are designed to have droop adjustments built into the shock towers. This allows racers to
+quickly and easily adjust droop, with touching their shocks. Moving up on the tower takes droop away,
+while moving down on the tower adds droop. If your shocks were matched for length when built, there
+is no need to measure droop after adjusting, because you are changing droop equally left to right with
+the shock tower hole change.
+
+## Droop Screws
+
+Some chassis have suspensions that utilize droop screws. Droop screws limit the downward travel of the
+suspension arm regardless of the shocks total length off of the car. The more you thread a droop screw
+into the arm, the more you reduce the droop of the chassis. The more you unscrew the droop screw, the
+more droop you allow the arm/shock to have. When using droop screws, it is imperative that you
+measure the center to center length of both shocks to ensure that you have equal droop left to right. If
+not, adjust droop screws as needed until matched lengths are achieved.
+
+## Limiters
+
+Some racers like to tune droop by adding internal shock limiters. Most racers use .030” limiters, and
+sometimes run up to 5 or 6 of them inside the shock to adjust droop. Simply unthread your shock rod
+end and install on the shock shaft below the piston, reassemble, and you are ready to go. Be sure to
+match shock lengths before installing on chassis.
+
+## Rod Ends
+
+A simple way to fine tune your droop adjustments is to use your lower shock rod ends. You can thread
+them in or out one turn at a time which typically equals .020” of droop adjustment. This is great to fine
+tune your droop, as it is less of an adjustment as using the shock tower holes, and easier than adding
+limiters.
+
+No matter which method(s) you choose to utilize for droop adjustment, one key thing needs to be
+focused on before you hit the track. RECHECK YOUR CHASSIS HEIGHTS!!! After EVERY chassis
+adjustment, and before EVERY run, you should check your chassis heights. Be sure you have the right
+settings. Most race days have limited practice time, so why waste a run by not ensuring proper
+settings?! Adjusting droop will change your chassis heights, so please, do the right thing and get your
+chassis acquainted with your setup board… Your setup board and Ride Height Gauge should be your
+best friends as a competitive racer.
+
+NOTE: Racers Note:
+All MurfDogg Chassis are designed with symmetrical suspension geometry. Both front shocks can be
+built to the exact same length, and this will result in a perfectly balanced front droop setting. The same
+can be said for our rear end geometry and droop settings. The MurfDogg Team suggests tuning with
+droop equally to maintain balance, meaning to adjust the droop setting of BOTH front shocks equally
+during each adjustment. This maintains balance and prevents weight jacking which can change the
+handling of the car elsewhere beyond the desired droop adjustment. The same thing goes for rear droop
+adjustments. (Some racers with advanced chassis tuning knowledge play with more RF Droop in certain
+situations. This is not “wrong”, but is suggested to be left to the advanced tuners out there, because this
+changes weight jacking and balance of the chassis, as well as lateral weight transfer. I suggest keeping
+things simple and tuning equally front or rear.)
+
+# Chapter 6 - Camber Links and Roll Centers
+
+Roll Center is perhaps the most complicated and hard to understand concept of chassis setup. Roll
+Center is adjusted with Camber Links by changing camber link locations and lengths. I highly suggest
+leaving Camber Link and Roll Center adjustments to the expert racers with a firm grasp on chassis setup
+and handling. Roll Centers are difficult to explain even when using lots of drawings and diagrams. I am
+going to do my best to teach you the basics, without getting overly complicated and getting you
+completely lost. Roll Center basically describes the relationship between the upper and lower arm of the
+suspension. The lower arm would be the A-Arm, while the upper arm would be the turnbuckle.
+
+## What is Roll Center?
+
+Roll Center (RC) is the point of which the chassis rolls while cornering. Your chassis will have a front roll
+center, and a rear roll center. RC is something that we can change on the chassis by using various chassis
+adjustments. (Further details later)If you would rather not get too complicated about RC, please feel
+free to skip the next 2 paragraphs.
+
+## How do you determine where the Roll Center is?
+
+Without getting too complicated, RC is figured by taking measurements and drawing a diagram based on
+data compiled from you chassis such as pivot locations of upper and lower arms and the center of the
+contact patch of the tire. Calculating RC is a pretty complicated and tricky process involving many
+factors, however the information obtained can be quite helpful to a racer trying to fine tune their
+suspension. For a basic understanding of RC, look at the rear of your chassis, at race ready chassis
+height. Now draw an imaginary line between the outer and inner hinge pins on your LR A-Arm. Next,
+draw a similar imaginary line between the inner and outer camber link mounts on the LR A-Arm. Where
+these lines intersect is known as your Instant Center (IC). Now draw a line from the IC to the center of
+the LR Tire’s Tread Width where it contacts the track surface. The point that this line crosses the
+centerline of the car is your RC. This can be further complicated on Dirt Oval chassis by offset chassis and
+by setups utilizing staggered camber link locations and angles.
+
+## What is Center of Gravity?
+
+Center of Gravity (CG) is a generalization for the center of mass. The CG is the point where a chassis’
+weight can be balanced, and will stay there until the application of an external source of energy. CG can
+be changed by physically changing the location of mass/weight on the chassis.
+
+## Roll Center and Center of Gravity
+
+Dirt Oval Chassis ALWAYS have a RC that is much lower than the CG. This is important to know, so any
+RC adjustment we make will make a change in a particular direction.
+
+## Moment Arm
+
+The Moment Arm is the imaginary line connecting the RC and CG. The length and subsequent leverage
+of the Moment Arm is the controlling factor of chassis roll while cornering. All of this calculating is done
+so we can find and change the leverage of the Moment Arm and how it acts on the CG during cornering.
+
+## Raising Roll Center
+
+Raising the RC moves it closer to the CG, which results in less leverage of the Moment Arm. Less
+leverage (shorter moment arm) results in less chassis roll during cornering.
+
+## Lowering Roll Center
+
+Lowering the RC moves it farther away from the CG, which results in more leverage of the Moment Arm.
+More Leverage (longer moment arm) results in more chassis roll during cornering.
+
+CHEAT SHEET:
+Roll Center Cliff Notes
+Adjustments That Raise Roll Center
+- Lowering the inner camber link mounts.
+- Raising the outer camber link mounts.
+- Raising the suspension mount relative to the chassis.
+Adjustments That Lower Roll Center
+- Raising the inner camber link mounts.
+- Lowering the outer camber link mounts.
+- Lowering the suspension mount relative to the chassis.
+
+## Camber Links
+
+Now that we have covered what the various Camber Link angles do for us regarding chassis roll and
+controlling weight transfer, let’s get into what various camber link lengths do for us. Remember, your
+lower A-Arms are an acting force of your suspension geometry, and in general we are figuring the effects
+of the Upper Link (Camber Link) on the lower link (A-Arm).
+
+## Neutral Camber Links
+
+When your car has equal length upper and lower links that are parallel to one another, this is called
+Neutral Camber Links. This will be the most neutral handling, easy driving, and predictable setup. All
+MurfDogg Chassis are designed to have the ability to run Neutral Camber Links. We run Neutral Links
+95% of the time, and only stray from this setup in extreme conditions (Extreme Low-Grip or Extreme
+High Bite).
+
+## Camber Link Lengths
+
+- Shorter Links typically result in more camber change. More Camber Change equals more initial weight
+transfer to that corner.
+- A short link that is parallel to the lower arm will have a very low RC, which will initially cause the
+chassis to roll easily, but a longer link at the same angle will have increased chassis roll into the corner.
+This is because the as the car leans into the corner, the RC of the longer link actually will get to a point
+that is lower than the RC of the shorter link. Basically, the longer parallel link will have less initial roll, but
+will roll more as you get farther into the roll than the short link which provides more initial roll.
+- Longer Links typically result in less camber change. Less Camber Change equals less initial weight
+transfer to that corner.
+- A long link that is parallel to the lower arm will have a slightly higher roll center during
+
+CHEAT SHEET:
+Camber Link Cliff Notes
+- Higher Inner Camber Link Pivot = More Chassis Roll
+- Lower Inner Camber Link Pivot = Less Chassis Roll
+- Lower Bite Tracks = More desired chassis roll to create more traction.
+- Higher Bite Tracks = Less desired chassis roll to control bite and increase steering.
+
+# Chapter 7 - Wheelbase, Kickup, and Squat
+
+Now we move into some of the more complex chassis adjustments. Most racers will benefit by using the
+more basic adjustments, because it is easy to dial yourself out with some of the adjustments we are
+going to cover from this point on.
+
+## Wheelbase
+
+What is Wheelbase?
+Wheelbase is the distance between the center of the front axle and the center of the rear axle.
+
+## How do you determine what your wheelbase is?
+
+Typically one would use a ruler, calipers, or any measuring tool that can measure the distance between
+center of front and rear axles.
+
+## How do you adjust wheelbase?
+
+Wheelbase can be adjusted several ways. The most common adjustment is by moving shims on the rear
+outer hinge pin to move your rear hub carriers forward or back. Some cars are designed and built with
+multiple holes in the chassis to run long or short wheelbase, and some cars are designed to use shims on
+the inner rear hinge pins to allow movement of the rear arms forward and back as well. No one way is
+right or wrong, and all have similar effects on handling.
+
+## How does Wheelbase affect the handling of my chassis?
+
+In General, the shorter your wheelbase, the more your car will want to rotate in the corner. Likewise a
+longer wheelbase will tend to rotate less in the corner. Shorter wheelbase chassis tend to be more
+aggressive and harder to drive, while longer wheelbase chassis tend to numb down the steering and
+
+## Wheelbase and How It Affects Weight Transfer
+
+Adjusting wheelbase changes the location of your static weight relative to the front and rear axle. In
+simple terms, one must take note of how their wheelbase adjustments change location of the weight
+fore and aft.
+
+### Off Power:
+
+If you lengthen the wheelbase, you reduce chassis rotation because the static weight is further ahead of
+the rear axle. The further your weight is to the rear of the chassis, the more weight can and will be
+transferred to the front upon corner entry (off power). Lengthening the wheelbase reduces Off Power
+Steering by reducing weight transfer to the front of the chassis. Shortening the wheelbase moves the
+weight more toward the rear, allowing more weight transfer, which increases off power rotation.
+
+### On Power:
+
+Just like with Off Power weight transfer, lengthening the wheelbase reduces on throttle rotation,
+however to a lesser extent, and not because of weight transfer, but because of the nature of a longer
+wheelbase chassis resisting rotation. Likewise, if you are tight on throttle, shortening your wheelbase
+can help your chassis rotate on power because a shorter wheelbase promotes more rotation.
+
+CHEAT SHEET:
+Wheelbase Quick Notes:
+- Longer Wheelbase is ALWAYS more stable and easier to drive
+- Shorter wheelbase is ALWAYS more aggressive and rotates easier
+- On tight tracks, Short Wheelbase may be the answer to get the chassis to rotate like you want
+- On tracks with wide flowing corners, Long Wheelbase can be much smoother and consistent
+
+## Kickup
+
+## What is Kickup?
+
+Kickup is the front inner hinge pin angle, as measured in relation to the chassis plate. Almost ALL chassis
+used in RC Dirt Oval have a kickup angle. Typical angles range between 10-35 degrees. If your chassis
+had its front inner hinge pins parallel to the chassis you would have zero kickup. Positive Kickup is found
+on all chassis, and means that the front of the hinge pin is higher than the rear of the hinge pin.
+
+## What does Kickup do?
+
+Kickup controls how much the chassis will squat during braking and/or deceleration during corner entry.
+Kickup also sets the plane for which your caster blocks will be measured to figure total caster. For
+example, if you have 25 degrees of kickup, your total caster will be dependent on the degrees built in
+the block relative to your kickup angle. So with a 25 degree kickup, and a 10 degree caster block, you
+will have 35 degrees of total caster. If you have a 25 degree kickup and a -5 caster block, you will have
+20 degrees of total caster.
+
+## How Do We Use Kickup to Control Weight Transfer?
+
+- Running more kickup affectively puts more bind into the front end reducing how much the chassis will
+dive, also reducing weight transfer. The more positive kickup you run, the more resistance to weight
+transfer you will have, resulting in less initial turn in steering.
+- Running less kickup affectively reduces the chassis’ resistance to dive, which increases weight transfer.
+The less kickup you run, the more easily the weight will transfer, which will increase initial turn in
+steering.
+
+## No Free Lunch:
+
+One of the downsides to tuning with Kickup is that your kickup directly affects your total caster.
+- Adding kickup reduces weight transfer, but increases caster. The more caster you run, the more
+camber gain you will have, which can actually increase the grip level of the front tires creating more
+weight transfer to the front.
+- Taking away kickup increases weight transfer, but reduces caster. The less caster you run, the less
+camber gain you will have, which can actually reduce the grip level of the front tires creating less weight
+transfer to the front.
+
+## SQUAT
+
+## What is Squat?
+
+Squat is the angle of the rear inner hinge pin, as measured in relation to the chassis plate. The squat
+angle controls the rear end of the chassis’ ability to “Squat” under acceleration, thus controlling weight
+transfer.
+
+## How is Squat Adjusted?
+
+Some cars have independent front and rear suspension mounts that use various pills or spacers to raise
+or lower the front or rear of the hinge pin. Other chassis use tapered shims under the rear suspension
+mounts to raise or lower one end of the hinge pin relative to the chassis. Either method you use, the
+effects are the same.
+
+### There are three types of squat. Pro-Squat, Anti-Squat, and Zero-Squat.
+
+## Anti-Squat:
+
+Anti-Squat is achieved by elevating the front of the Rear Inner hinge pin, or dropping the rear of the
+inner rear hinge pin. The angle created in doing so becomes your amount of anti-squat. Typical amounts
+of anti-squat are 1 to 5 degrees. Anti-Squat will reduce the amount the rear of the chassis squats down,
+thus reducing weight transfer to the rear, which means the chassis will have more on and off power
+steering. Anti-Squat is typically used ONLY on higher bite surfaces.
+
+## Pro-Squat:
+
+Pro-Squat is achieved by elevating the rear of the Rear Inner hinge pin, or dropping the front of the
+inner rear hinge pin. The angle created in doing so becomes your amount of pro-squat. Typical amounts
+of pro-squat are 1 to 3 degrees. Pro-Squat will increase the amount the rear of the chassis squats down,
+thus increasing weight transfer to the rear, which means the chassis will have less on and off power
+steering. Pro-Squat is typically ONLY used on lower bite surfaces.
+
+## Zero-Squat:
+
+Zero-Squat is the most typical setting and is achieved by adjusting your rear inner hinge pin to be
+parallel to the chassis plate. It is called Zero-Squat, because you are not using Pro-Squat or Anti-Squat to
+manipulate the weight transfer to the rear of the chassis. Zero-Squat will usually be the best balance of
+rear traction and steering, and give the racer a nice balanced feel. Zero-Squat is ideal for use in most
+conditions.
+
+TIP:
+Racer’s Tip:
+Squat is a fine tuning adjustment, and larger gains can be had by adjusting springs first. Squat, when
+used properly can help fine tune a chassis and improve lap times, however, do not expect massive gains
+by tuning with Squat. Squat adjustments will not turn a chassis that is a 6 out of 10 in to a 9 out of 10;
+but it can help a chassis that is 8.5 out of 10 become a 9 out of 10.
+
+# Chapter 8 - Sway-Bars
+
+## Sway-Bars
+
+## What Is A Sway-Bar?
+
+A Sway-Bar is a solid metal link that connections the left side of the suspension to the right side of the
+suspension.
+
+## What Does a Sway-Bar do?
+
+During cornering, the outer or right side suspension compresses due to the cornering forces of the
+chassis. By design, a Sway-Bar will rotate upward as the RF suspension compresses. Because the bar is
+also hooked to the LF suspension, the LF suspension will compress as well, increasing roll resistance of
+the chassis. Sway-Bars are typically only used on the front of most 1/10th scale Dirt Oval Chassis. Some
+racers will attempt to run rear Sway-Bars in extreme traction situations. We will focus only on Front
+
+## Sway Bars
+
+How Do We Control Roll Resistance?
+Sway-Bars are available in various diameters. The larger the diameter or “heavier” your Sway-Bar is, the
+more the LF suspension will compress as the RF compresses, thus increasing roll resistance. The smaller
+the diameter or “lighter” your Sway-Bar is, the lesser the LF suspension will compress as the RF
+compresses, thus reducing roll resistance.
+
+CHEAT SHEET:
+Roll Resistance Cheat Sheet:
+- Heavier/Thicker bar = Less Chassis Roll (Used to take away steering)
+- Lighter/Thinner bar = More Chassis Roll (Used to add steering)
+
+## Why would I use a sway bar?
+
+Sway-Bars only have an effect on the suspension as the chassis rolls side to side. This means that if you
+compress the front suspension equally left and right, the Sway-Bar will have no effect on stiffness of
+your suspension. Sway-Bars are especially helpful when you want to use softer springs, while still
+maintaining roll resistance in the corners. Running a front Sway-Bar paired with softer springs can help
+the chassis absorb bumps and improve straight line handling, while still maintaining a nice balanced feel
+upon corner entry. The tricky part is, running a Sway-Bar adds several more factors to your chassis setup
+“package” and that can further complicate things and make it harder to hit that magic setup. In
+extremely high bite conditions, a Sway-Bar will help prevent Traction Rolling.
+
+## Keys to A Properly Working Sway-Bar
+
+To check your Sway-Bar for proper operation, you must ensure that the Sway-Bar creates equal
+resistance on both sides of the suspension. The best way to do this is to remove all 4 tires and the front
+shocks, and set the chassis flat on a setup board. Lift the LF suspension up about ¼” and note how much
+the RF suspension reacts. Now do the same to the RF suspension, and take note of how much the LF
+suspension compresses. A properly setup Sway-Bar assembly will have the same amount of lift on the
+opposite side from the side you compress, at the same amount of compression. If your Sway-Bar does
+not have equal leverage on both sides, you will need to play with the length of the Sway-Bar links or the
+Torsion Arm mount depending on the type of Sway-Bar you are using.
+
+## Should I be using a Sway-Bar?
+
+In general, if you are racing on a high bite, high speed surface, you should consider trying a Sway-Bar.
+
+# Chapter 9 - Transmissions and Drive Train
+
+## Transmission
+
+## What Is A Transmission?
+
+A Transmission is the mechanism by which power is transmitted from an engine/motor to the wheels of
+a motor driven vehicle.
+
+## What Does a Transmission do?
+
+Transmissions convert the RPM and Torque of the motor along the drivetrain. The objective is to
+maximize the efficiency of the motor which means to achieve the lowest amp draw and voltage
+consumption with the greatest speed and torque.
+
+## How does a Transmission achieve the maximum efficiency of the motors power output?
+
+To maximize efficiency, Transmissions feature gear reductions, which help us create more torque.
+Higher final drive ratios will create more torque than lower final drive ratios. Higher final drive ratios are
+best suited for lower turn motors that have much higher RPM’s and much lower torque. Lower final
+drive ratios are better suited for high turn motors which have far greater torque, but much less RPM.
+
+CHEAT SHEET:
+Final Drive Ratio Cheat Sheet:
+- Higher FDR = More Torque, Less RPM (Low turn motors, bigger, heavier tires and chassis)
+- Lower FDR = More RPM, Less Torque (High turn motors, smaller, lighter tires and chassis)
+
+## Why are there so many types of transmissions?
+
+Over the years, RC Engineers have designed several different types of transmissions. Each style of
+transmission has a time and place at which that style transmission can excel over the other types.
+
+## What are the various types of Transmissions?
+
+### Traditional 3-Gear Transmission:
+
+This style of transmission is optimal in medium to high bite, Spec and Modified Racing on Foam Tires.
+
+### 2-Gear Transmission:
+
+This style of transmission is used in Foam-tire high-bite racing where lower rotating mass and friction is
+desired, and the driver does not want to use a direct drive transmission. Often, this setup is used with
+the motor running in reverse direction.
+
+### 4-Gear Transmission:
+
+This style of transmission is optimal in low to medium bite, rubber tire classes with Modified Motors.
+The main advantage to this style transmission in lower bite conditions is that it uses the natural weight
+jacking effects of the motor to create more forward drive while on throttle and more off power steering
+under deceleration.
+
+### Direct-Drive Transmission:
+
+This style of transmission is optimal in high bite, lower power classes. It has the lowest rotating mass
+and least amount of friction of all the transmission types. In high bite SPEC motor racing, if a Direct Drive
+Transmission is legal in your racing division, you better be running one if you want to compete.
+
+## Ball Differential vs. Gear Differential
+
+Perhaps one of the most frequently asked questions that I receive, is “When do I want a Gear Diff as
+opposed to a ball diff?”
+
+Well, in 90% of situations, a ball diff will give you the most consistent and comfortable feel. Problem
+with a ball diff is that they wear out, and require maintenance and rebuilding on occasion. What about
+the other 10%? Well, Typically, Gear Differentials will unload off power during corner entry and increase
+off throttle steering and rotation. Likewise, Gear Differentials will “Lock Up” on throttle and thus
+increase forward drive tremendously.
+
+## What about Gear Differential Fluids?
+
+Typically, the MurfDogg Team always uses Losi 3,000wt Diff Fluid in our Gear Diffs for high bite racing,
+and Lucas Oil “Red ‘N’ Tacky” grease in our gear diffs for Loose Dirt Racing. This eliminates variables, and
+helps us to tune our chassis with two basic diffs for each type of car. Yes, there are an infinite number of
+various fluids and varying viscosities of these fluids available for you to play with. No, we don’t play with
+them, and do not recommend you do so either. We NEVER do, and frankly do not see any reason to,
+knowing that we have a firm grasp on what each style diff does already, and how changing between the
+two styles of diffs will affect our chassis’. For those of you, who must know what changing the diff fluids
+will do, keep on reading.
+
+## Tuning with Diff Fluids:
+
+Differential Fluids are just like shock fluids in that the larger the number the thicker the fluid. Using
+different viscosity fluids in the diffs is a way we can control how much power is applied to each wheel by
+controlling the action of the gear differential.
+- Thinner fluid in the gear differential provides more off power steering and increases forward drive
+coming out of the turn. This also results in less on power steering.
+- Thicker fluid in the gear differential provides less off power steering and decreases forward drive
+coming out of the turn. This also results in more on power steering.
