@@ -1,14 +1,21 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../models/app_preferences.dart';
+import '../models/car_profile.dart';
 import '../models/gear_setup.dart';
 import '../services/gear_ratio_service.dart';
+import '../services/local_storage_service.dart';
 import '../theme/app_theme.dart';
 import 'assistant_screen.dart';
 import 'calculator_screen.dart';
+import 'car_profiles_screen.dart';
+import 'settings_screen.dart';
 import 'tuning_guide_screen.dart';
 
-enum AppScreen { calculator, assistant, guide }
+enum AppScreen { calculator, assistant, cars, guide, settings }
 
 class AppShell extends StatefulWidget {
   const AppShell({super.key});
@@ -18,7 +25,12 @@ class AppShell extends StatefulWidget {
 }
 
 class _AppShellState extends State<AppShell> {
+  static const String _carsStorageKey = 'rc_gear_ratio_car_profiles_v1';
+  static const String _preferencesStorageKey = 'rc_gear_ratio_preferences_v1';
+
   AppScreen _screen = AppScreen.calculator;
+  AppPreferences _preferences = AppPreferences.defaults;
+  List<CarProfile> _carProfiles = const [];
 
   final TextEditingController pinionController = TextEditingController(text: '24');
   final TextEditingController spurController = TextEditingController(text: '78');
@@ -32,9 +44,8 @@ class _AppShellState extends State<AppShell> {
   @override
   void initState() {
     super.initState();
-    tireCircumferenceController.text = GearRatioService
-        .diameterToCircumference(2.65)
-        .toStringAsFixed(3);
+    _loadSavedData();
+    tireCircumferenceController.text = GearRatioService.diameterToCircumference(2.65).toStringAsFixed(3);
     pinionController.addListener(_gearChanged);
     spurController.addListener(_gearChanged);
     transmissionController.addListener(_gearChanged);
@@ -50,6 +61,75 @@ class _AppShellState extends State<AppShell> {
     tireDiameterController.dispose();
     tireCircumferenceController.dispose();
     super.dispose();
+  }
+
+  void _loadSavedData() {
+    final preferencesJson = LocalStorageService.readString(_preferencesStorageKey);
+    if (preferencesJson != null) {
+      try {
+        _preferences = AppPreferences.fromJson(jsonDecode(preferencesJson) as Map<String, dynamic>);
+      } catch (_) {
+        _preferences = AppPreferences.defaults;
+      }
+    }
+
+    final carsJson = LocalStorageService.readString(_carsStorageKey);
+    if (carsJson != null) {
+      try {
+        final decoded = jsonDecode(carsJson) as List<dynamic>;
+        _carProfiles = decoded
+            .whereType<Map<String, dynamic>>()
+            .map(CarProfile.fromJson)
+            .toList()
+          ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+      } catch (_) {
+        _carProfiles = const [];
+      }
+    }
+  }
+
+  void _savePreferences(AppPreferences preferences) {
+    setState(() => _preferences = preferences);
+    LocalStorageService.writeString(_preferencesStorageKey, jsonEncode(preferences.toJson()));
+  }
+
+  void _saveCarProfiles(List<CarProfile> profiles) {
+    final sorted = [...profiles]..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+    setState(() => _carProfiles = sorted);
+    LocalStorageService.writeString(
+      _carsStorageKey,
+      jsonEncode(sorted.map((profile) => profile.toJson()).toList()),
+    );
+  }
+
+  void _upsertCarProfile(CarProfile profile) {
+    final next = _carProfiles.where((existing) => existing.id != profile.id).toList()..add(profile);
+    _saveCarProfiles(next);
+  }
+
+  void _deleteCarProfile(CarProfile profile) {
+    _saveCarProfiles(_carProfiles.where((existing) => existing.id != profile.id).toList());
+  }
+
+  void _applyCarProfile(CarProfile profile) {
+    final setup = profile.setup;
+    if (setup == null) return;
+    _updatingTireFields = true;
+    pinionController.text = setup.pinion.toString();
+    spurController.text = setup.spur.toString();
+    transmissionController.text = setup.transmissionRatio.toStringAsFixed(2);
+    tireUnit = profile.tireUnit;
+    tireDiameterController.text = profile.tireDiameter == null
+        ? ''
+        : profile.tireDiameter!.toStringAsFixed(profile.tireUnit == TireUnit.inches ? 3 : 1);
+    tireCircumferenceController.text = profile.tireCircumference == null
+        ? ''
+        : profile.tireCircumference!.toStringAsFixed(profile.tireUnit == TireUnit.inches ? 3 : 1);
+    _updatingTireFields = false;
+    setState(() => _screen = AppScreen.calculator);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Loaded ${profile.displayName} into the calculator.')),
+    );
   }
 
   void _gearChanged() => setState(() {});
@@ -76,9 +156,7 @@ class _AppShellState extends State<AppShell> {
     if (diameter == null || diameter <= 0) {
       tireCircumferenceController.clear();
     } else {
-      tireCircumferenceController.text = GearRatioService
-          .diameterToCircumference(diameter)
-          .toStringAsFixed(tireUnit == TireUnit.inches ? 3 : 1);
+      tireCircumferenceController.text = GearRatioService.diameterToCircumference(diameter).toStringAsFixed(tireUnit == TireUnit.inches ? 3 : 1);
     }
     _updatingTireFields = false;
     setState(() {});
@@ -91,9 +169,7 @@ class _AppShellState extends State<AppShell> {
     if (circumference == null || circumference <= 0) {
       tireDiameterController.clear();
     } else {
-      tireDiameterController.text = GearRatioService
-          .circumferenceToDiameter(circumference)
-          .toStringAsFixed(tireUnit == TireUnit.inches ? 3 : 1);
+      tireDiameterController.text = GearRatioService.circumferenceToDiameter(circumference).toStringAsFixed(tireUnit == TireUnit.inches ? 3 : 1);
     }
     _updatingTireFields = false;
     setState(() {});
@@ -125,7 +201,9 @@ class _AppShellState extends State<AppShell> {
     final title = switch (_screen) {
       AppScreen.calculator => 'Calculator',
       AppScreen.assistant => 'Gear Change Assistant',
+      AppScreen.cars => 'Cars & Notes',
       AppScreen.guide => 'Tuning Guide',
+      AppScreen.settings => 'Settings',
     };
 
     final common = SharedSetupData(
@@ -143,67 +221,96 @@ class _AppShellState extends State<AppShell> {
     final body = switch (_screen) {
       AppScreen.calculator => CalculatorScreen(shared: common),
       AppScreen.assistant => AssistantScreen(shared: common),
+      AppScreen.cars => CarProfilesScreen(
+          shared: common,
+          carProfiles: _carProfiles,
+          onSaveProfile: _upsertCarProfile,
+          onDeleteProfile: _deleteCarProfile,
+          onUseProfile: _applyCarProfile,
+        ),
       AppScreen.guide => const TuningGuideScreen(),
+      AppScreen.settings => SettingsScreen(
+          preferences: _preferences,
+          onPreferencesChanged: _savePreferences,
+        ),
     };
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
-      drawer: Drawer(
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Container(
-                padding: const EdgeInsets.all(18),
-                decoration: const BoxDecoration(
-                  gradient: LinearGradient(colors: [AppTheme.purple, AppTheme.panel]),
-                ),
-                child: const Text(
-                  'RC Overall\nDrive Ratio',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.w900),
-                ),
+    final media = MediaQuery.of(context);
+
+    return AppPreferencesScope(
+      preferences: _preferences,
+      child: MediaQuery(
+        data: media.copyWith(textScaler: TextScaler.linear(_preferences.textSize.scale)),
+        child: Scaffold(
+          appBar: AppBar(title: Text(title)),
+          drawer: Drawer(
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(18),
+                    decoration: const BoxDecoration(
+                      gradient: LinearGradient(colors: [AppTheme.purple, AppTheme.panel]),
+                    ),
+                    child: const Text(
+                      'RC Overall\nDrive Ratio',
+                      style: TextStyle(fontSize: 24, fontWeight: FontWeight.w900),
+                    ),
+                  ),
+                  _DrawerItem(
+                    label: 'Calculator',
+                    icon: Icons.calculate_outlined,
+                    selected: _screen == AppScreen.calculator,
+                    onTap: () => _goTo(AppScreen.calculator),
+                  ),
+                  _DrawerItem(
+                    label: 'Gear Change Assistant',
+                    icon: Icons.tune_outlined,
+                    selected: _screen == AppScreen.assistant,
+                    onTap: () => _goTo(AppScreen.assistant),
+                  ),
+                  _DrawerItem(
+                    label: 'Cars & Notes',
+                    icon: Icons.directions_car_filled_outlined,
+                    selected: _screen == AppScreen.cars,
+                    onTap: () => _goTo(AppScreen.cars),
+                  ),
+                  _DrawerItem(
+                    label: 'Chassis Tuning Guide',
+                    icon: Icons.article_outlined,
+                    selected: _screen == AppScreen.guide,
+                    onTap: () => _goTo(AppScreen.guide),
+                  ),
+                  _DrawerItem(
+                    label: 'Settings',
+                    icon: Icons.settings_outlined,
+                    selected: _screen == AppScreen.settings,
+                    onTap: () => _goTo(AppScreen.settings),
+                  ),
+                  const Spacer(),
+                  Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Text(
+                      'Text: ${_preferences.textSize.label}\nLayout: ${_preferences.layoutDensity.label}',
+                      style: const TextStyle(color: AppTheme.mutedText),
+                    ),
+                  ),
+                ],
               ),
-              _DrawerItem(
-                label: 'Calculator',
-                icon: Icons.calculate_outlined,
-                selected: _screen == AppScreen.calculator,
-                onTap: () => _goTo(AppScreen.calculator),
+            ),
+          ),
+          body: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [AppTheme.background, Color(0xFF14001D), AppTheme.background],
               ),
-              _DrawerItem(
-                label: 'Gear Change Assistant',
-                icon: Icons.tune_outlined,
-                selected: _screen == AppScreen.assistant,
-                onTap: () => _goTo(AppScreen.assistant),
-              ),
-              _DrawerItem(
-                label: 'Chassis Tuning Guide',
-                icon: Icons.article_outlined,
-                selected: _screen == AppScreen.guide,
-                onTap: () => _goTo(AppScreen.guide),
-              ),
-              const Spacer(),
-              const Padding(
-                padding: EdgeInsets.all(16),
-                child: Text(
-                  'Higher FDR = more torque, less RPM\nLower FDR = more RPM, less torque',
-                  style: TextStyle(color: AppTheme.mutedText),
-                ),
-              ),
-            ],
+            ),
+            child: SafeArea(child: body),
           ),
         ),
-      ),
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [AppTheme.background, Color(0xFF14001D), AppTheme.background],
-          ),
-        ),
-        child: SafeArea(child: body),
       ),
     );
   }

@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 
+import '../models/app_preferences.dart';
+
 class NeonCard extends StatelessWidget {
   const NeonCard({
     super.key,
     required this.child,
-    this.padding = const EdgeInsets.all(16),
+    this.padding,
   });
 
   final Widget child;
-  final EdgeInsets padding;
+  final EdgeInsets? padding;
 
   @override
   Widget build(BuildContext context) {
     return Card(
       child: Padding(
-        padding: padding,
+        padding: padding ?? AppPreferencesScope.of(context).layoutDensity.cardPadding,
         child: child,
       ),
     );

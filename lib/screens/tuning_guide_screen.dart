@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../models/app_preferences.dart';
+
 import '../theme/app_theme.dart';
 import '../widgets/neon_card.dart';
 
@@ -43,7 +45,7 @@ class _TuningGuideScreenState extends State<TuningGuideScreen> {
             : guide.sections.where((section) => section.searchText.contains(query)).toList();
 
         return ListView(
-          padding: const EdgeInsets.all(14),
+          padding: AppPreferencesScope.of(context).layoutDensity.screenPadding,
           children: [
             Center(
               child: ConstrainedBox(
@@ -137,7 +139,7 @@ class _LoadErrorCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(14),
+      padding: AppPreferencesScope.of(context).layoutDensity.screenPadding,
       child: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 860),

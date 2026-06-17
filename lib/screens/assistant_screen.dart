@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../models/app_preferences.dart';
+
 import '../models/gear_setup.dart';
 import '../services/gear_ratio_service.dart';
 import '../services/recommendation_service.dart';
@@ -28,7 +30,7 @@ class _AssistantScreenState extends State<AssistantScreen> {
         : null;
 
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(14),
+      padding: AppPreferencesScope.of(context).layoutDensity.screenPadding,
       child: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 860),
@@ -195,7 +197,7 @@ class _SetupSummaryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final rollout = GearRatioService.calculateRollout(tireCircumference: tireCircumference, setup: setup);
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: AppPreferencesScope.of(context).layoutDensity.screenPadding,
       decoration: BoxDecoration(
         color: Colors.black.withOpacity(0.28),
         borderRadius: BorderRadius.circular(16),

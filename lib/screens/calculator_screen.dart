@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../models/app_preferences.dart';
+
 import '../models/gear_setup.dart';
 import '../services/gear_ratio_service.dart';
 import '../theme/app_theme.dart';
@@ -31,7 +33,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     final selected = _selectedSetup ?? baseline;
 
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(14),
+      padding: AppPreferencesScope.of(context).layoutDensity.screenPadding,
       child: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 860),
@@ -68,7 +70,6 @@ class _HeroHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return NeonCard(
-      padding: const EdgeInsets.all(18),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -91,7 +92,7 @@ class _HeroHeader extends StatelessWidget {
                   borderRadius: BorderRadius.circular(999),
                 ),
                 child: const Text(
-                  'Build 2/3',
+                  'Alpha layout build',
                   style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 12),
                 ),
               ),

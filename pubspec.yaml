@@ -1,7 +1,7 @@
 name: rc_overall_drive_ratio
 description: RC Overall Drive Ratio calculator and gear change assistant.
 publish_to: 'none'
-version: 0.4.0+5
+version: 0.6.1+10
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
